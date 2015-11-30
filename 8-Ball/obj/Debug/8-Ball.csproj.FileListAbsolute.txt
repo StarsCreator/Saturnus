@@ -1,0 +1,15 @@
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\bin\Debug\8-Ball.dll
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\bin\Debug\8-Ball.pdb
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\bin\Debug\Support.dll
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\obj\Debug\8-Ball.csprojResolveAssemblyReference.cache
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\obj\Debug\8-Ball.dll
+C:\Users\ШаталовАА\documents\visual studio 2013\Projects\Bunkka\8-Ball\obj\Debug\8-Ball.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\bin\Debug\8-Ball.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\bin\Debug\8-Ball.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\bin\Debug\CollectionMtLib.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\bin\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\obj\Debug\8-Ball.csprojResolveAssemblyReference.cache
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\obj\Debug\8-Ball.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\8-Ball\obj\Debug\8-Ball.pdb

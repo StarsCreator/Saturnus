@@ -1,0 +1,81 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="clr-namespace:Saturnus.Models"
+    x:Class="Saturnus.Main"
+    Title="Main" Height="50" Width="450" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}"
+    WindowStartupLocation="CenterScreen" ShowInTaskbar="False" KeyDown="Window_KeyDown" Activated="Window_Activated"
+    Deactivated="Window_Deactivated"
+    MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.DataContext>
+        <models:MainViewModel></models:MainViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Border Width="auto" Height="auto" BorderBrush="Silver" BorderThickness="2"
+                CornerRadius="0,45,0,45">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="#333" Offset="0.0" />
+                            <GradientStop Color="#111" Offset="0.9" />
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <DockPanel>
+                    <TextBox x:Name="InputFld" VerticalAlignment="Center" Margin="40,0,0,0" Background="{x:Null}"
+                             BorderBrush="{x:Null}"
+                             FontSize="16" FontFamily="Trebuchet" Foreground="White" CaretBrush="White" Width="144"
+                             Text="{Binding Hint, UpdateSourceTrigger=PropertyChanged}"
+                             KeyDown="InputFld_KeyDown" PreviewKeyDown="InputFld_PreviewKeyDown"
+                              >
+                        <TextBox.InputBindings>
+                            <KeyBinding Command="{Binding EnterKeyCommand}" Key="Enter"/>
+                        </TextBox.InputBindings>
+                        </TextBox>
+                    <Image Width="32" Height="32" Margin="15,7,0,7"
+                           Source="{Binding ElementName=ResultBox, Path=SelectedItem.Image}"
+                           />
+                    <TextBlock VerticalAlignment="Center" Margin="15,0,26,0" Width="180"
+                               Text="{Binding ElementName=ResultBox, Path=SelectedItem.Name}"
+                               FontFamily="Trebuchet"
+                               FontSize="16" Foreground="White" />
+                </DockPanel>
+            </Grid>
+        </Border>
+        <Popup Name="ResultsPopup" HorizontalOffset="40" IsOpen="{Binding IsOpen}" PopupAnimation="Fade">
+            <ListBox Name="ResultBox" BorderBrush="{x:Null}" SelectedItem="{Binding SelectedResult, Mode=OneWayToSource}"
+                     Width="412" Height="Auto" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"
+                     MaxHeight="180"
+                     ItemsSource="{Binding Results.ObsColl}"
+                     Background="{x:Null}">
+                <ListBox.Resources>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#333"/>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="#333"/>
+                </ListBox.Resources>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel MaxHeight="37">
+                            <Image Source="{Binding Image, IsAsync=True}"
+                                   Height="32" Width="32" VerticalAlignment="Top" />
+                            <StackPanel Margin="5" VerticalAlignment="Top" DockPanel.Dock="Right">
+                                <TextBlock Foreground="White" Text="{Binding Name}"
+                                           HorizontalAlignment="Left" FontFamily="Trebuchet"
+                                           FontWeight="Bold" FontSize="12" />
+                                <TextBlock Foreground="White" Text="{Binding Command}"
+                                           HorizontalAlignment="Left" FontFamily="Trebuchet"
+                                           FontSize="9" TextWrapping="WrapWithOverflow" Width="330" />
+                            </StackPanel>
+                        </DockPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Popup>
+    </Grid>
+</Window>
+<!--Text="{Binding Path=Hint,RelativeSource={RelativeSource FindAncestor,AncestorType=Window}, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}" KeyDown="InputFld_KeyDown" PreviewKeyDown="InputFld_PreviewKeyDown"-->
+<!--ItemsSource="{Binding Path=Results,RelativeSource={RelativeSource FindAncestor,AncestorType=Window}, UpdateSourceTrigger=PropertyChanged}"-->
+<!--Source="{Binding ElementName=ResultBox, Path=SelectedItem.Image}"-->
+<!--Text="{Binding ElementName=ResultBox, Path=SelectedItem.Name}"--> 

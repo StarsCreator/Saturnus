@@ -1,0 +1,17 @@
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\bin\Debug\Search.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\bin\Debug\Search.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\obj\Debug\Search.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\obj\Debug\Search.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\bin\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Bunkka\Search\obj\Debug\Search.csprojResolveAssemblyReference.cache
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\bin\Debug\Search.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\bin\Debug\Search.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\bin\Debug\CollectionMtLib.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\bin\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\obj\Debug\Search.csprojResolveAssemblyReference.cache
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\obj\Debug\Search.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\obj\Debug\Search.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Search\obj\Debug\Search.csproj.ResolveComReference.cache

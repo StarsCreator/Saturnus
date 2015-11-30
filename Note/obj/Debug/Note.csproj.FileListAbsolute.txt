@@ -1,0 +1,15 @@
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\bin\Debug\Note.dll
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\bin\Debug\Note.pdb
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\bin\Debug\Support.dll
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\bin\Debug\Support.pdb
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\obj\Debug\Note.csprojResolveAssemblyReference.cache
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\obj\Debug\Note.dll
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Note\obj\Debug\Note.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\bin\Debug\Note.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\bin\Debug\Note.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\bin\Debug\CollectionMtLib.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\bin\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\obj\Debug\Note.csprojResolveAssemblyReference.cache
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\obj\Debug\Note.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Note\obj\Debug\Note.pdb

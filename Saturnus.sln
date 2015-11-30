@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturnus", "Saturnus\Saturnus.csproj", "{60E8044E-8C32-46BE-8AE5-4BF8E15210CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support", "Support\Support.csproj", "{1C4F0ABA-C9BE-4C76-8541-FCE829713CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{171F4496-D6D1-4CDA-9470-DDA12E18E1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8-Ball", "8-Ball\8-Ball.csproj", "{8CCA32A3-951C-487C-A8A6-90EF26B8D319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search", "Search\Search.csproj", "{216C4F99-9513-490D-8DB2-E6EA4447F72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note", "Note\Note.csproj", "{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60E8044E-8C32-46BE-8AE5-4BF8E15210CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E8044E-8C32-46BE-8AE5-4BF8E15210CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E8044E-8C32-46BE-8AE5-4BF8E15210CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E8044E-8C32-46BE-8AE5-4BF8E15210CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4F0ABA-C9BE-4C76-8541-FCE829713CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F0ABA-C9BE-4C76-8541-FCE829713CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F0ABA-C9BE-4C76-8541-FCE829713CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F0ABA-C9BE-4C76-8541-FCE829713CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCA32A3-951C-487C-A8A6-90EF26B8D319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCA32A3-951C-487C-A8A6-90EF26B8D319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCA32A3-951C-487C-A8A6-90EF26B8D319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCA32A3-951C-487C-A8A6-90EF26B8D319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216C4F99-9513-490D-8DB2-E6EA4447F72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216C4F99-9513-490D-8DB2-E6EA4447F72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216C4F99-9513-490D-8DB2-E6EA4447F72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216C4F99-9513-490D-8DB2-E6EA4447F72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CCA32A3-951C-487C-A8A6-90EF26B8D319} = {171F4496-D6D1-4CDA-9470-DDA12E18E1B7}
+		{216C4F99-9513-490D-8DB2-E6EA4447F72F} = {171F4496-D6D1-4CDA-9470-DDA12E18E1B7}
+		{0F484CF8-1143-4986-8DCE-CF9DD76DE0FC} = {171F4496-D6D1-4CDA-9470-DDA12E18E1B7}
+	EndGlobalSection
+EndGlobal

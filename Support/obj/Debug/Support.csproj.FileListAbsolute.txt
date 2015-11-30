@@ -1,0 +1,10 @@
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Support\bin\Debug\Support.dll
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Support\bin\Debug\Support.pdb
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Support\obj\Debug\Support.dll
+c:\Users\шаталоваа\documents\visual studio 2013\Projects\Bunkka\Support\obj\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\bin\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\bin\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\bin\Debug\CollectionMtLib.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\obj\Debug\Support.dll
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\obj\Debug\Support.pdb
+C:\Users\ШаталовАА\Documents\Visual Studio 2013\Projects\Saturnus\Support\obj\Debug\Support.csprojResolveAssemblyReference.cache
